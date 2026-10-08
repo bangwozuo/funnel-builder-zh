@@ -1,0 +1,62 @@
+{
+  "skill_id": "de_media_04_sk04",
+  "name": "社群话术",
+  "type": "atomic",
+  "input": {
+    "type": "object",
+    "required": [
+      "question"
+    ],
+    "properties": {
+      "question": {
+        "type": "string",
+        "description": "用户消息：用户的原话或问题描述"
+      },
+      "context": {
+        "type": "string",
+        "description": "背景信息：订单/评价/场景背景（可选）"
+      },
+      "persona": {
+        "type": "string",
+        "description": "人设与口径：品牌语气与可承诺范围（可选）"
+      }
+    }
+  },
+  "output": {
+    "type": "object",
+    "required": [
+      "reply",
+      "intent",
+      "escalate"
+    ],
+    "properties": {
+      "reply": {
+        "type": "string",
+        "description": "可直接使用的回复内容"
+      },
+      "intent": {
+        "type": "object",
+        "description": "识别到的用户意图与情绪状态"
+      },
+      "escalate": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "是否需要转人工及原因；涉及金额/赔付的必须升级"
+      }
+    },
+    "x-rendered-from": "capability:reply"
+  },
+  "constraints": {
+    "max_input_length": 5000,
+    "forbidden_words": [
+      "最好",
+      "第一",
+      "100%"
+    ],
+    "ai_label_required": true,
+    "human_review_required": true,
+    "external_api_required": false
+  }
+}

@@ -1,0 +1,50 @@
+name: 引流转化师
+repo: bangwozuo/funnel-builder-zh
+legacy_name: 私域引流转化师
+version: 0.2.0
+asset_type: prompt-only
+stage: P1
+complexity: M-L：话术层为 S，企微连接器与合规边界将总评推至 M-L，总估 10-15 人日
+group: 自媒体创作者
+runtime_dependencies: none
+api_key_required: false
+demand_ids:
+  - D07
+  - D21
+  - D26
+
+workflows:
+  - name: 引流钩子内容生成
+    id: de_media_04_wf01
+  - name: 欢迎语与 7 天培育 SOP
+    id: de_media_04_wf02
+  - name: 私域内容日历
+    id: de_media_04_wf03
+  - name: 成交话术与复购提醒
+    id: de_media_04_wf04
+
+skills:
+  - id: hook-product-design
+    name: 钩子产品设计
+    family: 
+  - id: conversion-sop-generate
+    name: 转化 SOP 生成
+    family: 
+  - id: moments-copy
+    name: 朋友圈文案
+    family: 
+  - id: community-script
+    name: 社群话术
+    family: 
+  - id: funnel-analysis
+    name: 转化漏斗分析
+    family: 
+  - id: fan-segmentation-tag
+    name: 粉丝分层打标
+    family: 
+
+compliance:
+  ai_label_required: true
+  human_review_required: true
+  forbidden_words_check: true
+  official_api_only: true
