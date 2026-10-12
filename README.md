@@ -110,23 +110,23 @@ funnel-builder-zh/
 
 ## 技能清单（6 个）
 
-| # | 技能 | 能力族 | 复杂度 | 提示词 | 文档 |
-|---|------|--------|--------|--------|------|
-| 1 | 钩子产品设计 | 钩子与创意生成 | `S` | [prompt.txt](skills/hook-product-design/prompt.txt) | [docs](skills/hook-product-design/docs/) |
-| 2 | 转化 SOP 生成 | 流程与方案设计 | `S` | [prompt.txt](skills/conversion-sop-generate/prompt.txt) | [docs](skills/conversion-sop-generate/docs/) |
-| 3 | 朋友圈文案 | 文案撰写 | `S` | [prompt.txt](skills/moments-copy/prompt.txt) | [docs](skills/moments-copy/docs/) |
-| 4 | 社群话术 | 应答与话术 | `S` | [prompt.txt](skills/community-script/prompt.txt) | [docs](skills/community-script/docs/) |
-| 5 | 转化漏斗分析 | 归因诊断 | `M` | [prompt.txt](skills/funnel-analysis/prompt.txt) | [docs](skills/funnel-analysis/docs/) |
-| 6 | 粉丝分层打标 | 打分与分层 | `S` | [prompt.txt](skills/fan-segmentation-tag/prompt.txt) | [docs](skills/fan-segmentation-tag/docs/) |
+| # | 技能 | 能力族 | 复杂度 | 说明文档 |
+|---|------|--------|--------|----------|
+| 1 | 钩子产品设计 | 钩子与创意生成 | `S` | [README](skills/hook-product-design/README.md) |
+| 2 | 转化 SOP 生成 | 流程与方案设计 | `S` | [README](skills/conversion-sop-generate/README.md) |
+| 3 | 朋友圈文案 | 文案撰写 | `S` | [README](skills/moments-copy/README.md) |
+| 4 | 社群话术 | 应答与话术 | `S` | [README](skills/community-script/README.md) |
+| 5 | 转化漏斗分析 | 归因诊断 | `M` | [README](skills/funnel-analysis/README.md) |
+| 6 | 粉丝分层打标 | 打分与分层 | `S` | [README](skills/fan-segmentation-tag/README.md) |
 
 ## 工作流清单（4 条）
 
-| # | 工作流 | 阶段 | 复杂度 | 触发 | 定义 | 文档 |
-|---|--------|------|--------|------|------|------|
-| 1 | 引流钩子内容生成 | `P1` | `S` | 人工（按活动） | [SKILL.md](workflows/traffic-hook-content-flow/SKILL.md) | [docs](workflows/traffic-hook-content-flow/docs/) |
-| 2 | 欢迎语与 7 天培育 SOP | `P1` | `M` | 事件（新粉加入） | [SKILL.md](workflows/welcome-7day-nurture-sop-flow/SKILL.md) | [docs](workflows/welcome-7day-nurture-sop-flow/docs/) |
-| 3 | 私域内容日历 | `P1` | `S` | 定时（每周） | [SKILL.md](workflows/private-domain-calendar-flow/SKILL.md) | [docs](workflows/private-domain-calendar-flow/docs/) |
-| 4 | 成交话术与复购提醒 | `P2` | `M` | 事件（转化节点/沉睡唤醒） | [SKILL.md](workflows/closing-repurchase-remind-flow/SKILL.md) | [docs](workflows/closing-repurchase-remind-flow/docs/) |
+| # | 工作流 | 阶段 | 复杂度 | 触发 | 说明文档 |
+|---|--------|------|--------|------|----------|
+| 1 | 引流钩子内容生成 | `P1` | `S` | 人工（按活动） | [README](workflows/traffic-hook-content-flow/README.md) |
+| 2 | 欢迎语与 7 天培育 SOP | `P1` | `M` | 事件（新粉加入） | [README](workflows/welcome-7day-nurture-sop-flow/README.md) |
+| 3 | 私域内容日历 | `P1` | `S` | 定时（每周） | [README](workflows/private-domain-calendar-flow/README.md) |
+| 4 | 成交话术与复购提醒 | `P2` | `M` | 事件（转化节点/沉睡唤醒） | [README](workflows/closing-repurchase-remind-flow/README.md) |
 
 ---
 
