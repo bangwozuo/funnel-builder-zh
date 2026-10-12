@@ -4,8 +4,7 @@
 
 ![引流转化师 · 动态演示](docs/assets/hero.gif)
 
-*▲ 实时演示（自动循环）· [▶ 观看完整版合集视频](docs/demo.mp4)*
-
+*▲ 真实执行录播（自动循环播放）· [▶ 观看完整版合集视频](docs/demo.mp4)*
 
 [![Stage](https://img.shields.io/badge/stage-P1-orange)](https://github.com/bangwozuo)
 [![Asset](https://img.shields.io/badge/asset-prompt--only-blueviolet)](#资产形态)
@@ -113,12 +112,12 @@ funnel-builder-zh/
 
 | # | 技能 | 能力族 | 复杂度 | 提示词 | 文档 |
 |---|------|--------|--------|--------|------|
-| 1 | 钩子产品设计 | 选题创意 | `S` | [prompt.txt](skills/hook-product-design/prompt.txt) | [docs](skills/hook-product-design/docs/) |
-| 2 | 转化 SOP 生成 | — | `S` | [prompt.txt](skills/conversion-sop-generate/prompt.txt) | [docs](skills/conversion-sop-generate/docs/) |
-| 3 | 朋友圈文案 | 文案生成 | `S` | [prompt.txt](skills/moments-copy/prompt.txt) | [docs](skills/moments-copy/docs/) |
-| 4 | 社群话术 | 回复应答 | `S` | [prompt.txt](skills/community-script/prompt.txt) | [docs](skills/community-script/docs/) |
-| 5 | 转化漏斗分析 | 分析诊断 | `M` | [prompt.txt](skills/funnel-analysis/prompt.txt) | [docs](skills/funnel-analysis/docs/) |
-| 6 | 粉丝分层打标 | — | `S` | [prompt.txt](skills/fan-segmentation-tag/prompt.txt) | [docs](skills/fan-segmentation-tag/docs/) |
+| 1 | 钩子产品设计 | 钩子与创意生成 | `S` | [prompt.txt](skills/hook-product-design/prompt.txt) | [docs](skills/hook-product-design/docs/) |
+| 2 | 转化 SOP 生成 | 流程与方案设计 | `S` | [prompt.txt](skills/conversion-sop-generate/prompt.txt) | [docs](skills/conversion-sop-generate/docs/) |
+| 3 | 朋友圈文案 | 文案撰写 | `S` | [prompt.txt](skills/moments-copy/prompt.txt) | [docs](skills/moments-copy/docs/) |
+| 4 | 社群话术 | 应答与话术 | `S` | [prompt.txt](skills/community-script/prompt.txt) | [docs](skills/community-script/docs/) |
+| 5 | 转化漏斗分析 | 归因诊断 | `M` | [prompt.txt](skills/funnel-analysis/prompt.txt) | [docs](skills/funnel-analysis/docs/) |
+| 6 | 粉丝分层打标 | 打分与分层 | `S` | [prompt.txt](skills/fan-segmentation-tag/prompt.txt) | [docs](skills/fan-segmentation-tag/docs/) |
 
 ## 工作流清单（4 条）
 
